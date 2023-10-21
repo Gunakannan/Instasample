@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+}
+.mainpage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    margin-top: 50px ;
+    background-image: url("https://wallpapercave.com/wp/wp5979916.jpg")
+}
+.heading{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, cursive;
+    font-size: 80px;
+    margin-left: 550px;
+    margin-top: 10px;
+    font-style: italic;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 8px 13px 35px 4px rgba(0,0,0,0.27);
+
+    
+}
+ul,li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+    
+    
+}
+.btn{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    width: 50px;
+    border-radius: 30px;
+    
+}
+.imgcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 25%;
+    margin-top: 100px;
+    background-color: transparent;
+    color: white;
+}
+#about{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-left: 100px;
+}
+
+.s1{
+    width: 50%;
+    height: 500px;
+    margin-top: 30px;
+    
+}
+.s1,p{
+    font-weight: bold;
+}
+.s2{
+    width: 50%;
+    margin-left: 80px;
+    margin-bottom: 50px;
+
+}
+.ic-1{
+position: absolute;
+top: 200px;
+right: 50px;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;font-style: italic;
+}
+.ic-2{
+    position: absolute;
+    top: 300px;
+    right: 150px;
+    margin-right: 200px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+
+    color: black;
+    font-family:  font-family;:Impact, Haettenschweiler,  sans-serif, cursive;;
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+li:hover{
+    transform: scale(1.1);
+}
+.ic-3{
+    position: absolute;
+    top: 450px;
+    right: 150px;
+    margin-right: 350px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+    color: orange;
+}
+.edge{
+    background-color: black;
+    color: white;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.e1{
+    text-decoration: none;
+    color: white;
+    margin-top: 30px;
+}
+
+.e2{
+    text-decoration: none;
+    color: white;
+    margin-top: 
+    30px;
+    margin-right: 20px;
+}
+
+.e1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.e2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.e0{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+
